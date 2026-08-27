@@ -1,5 +1,12 @@
 # Expansion checklist
 
+## New proof screenshots
+
+- [x] Stage both newly supplied screenshots in the proof asset repository.
+- [x] Add both screenshots to the Visual Proof gallery and download flow.
+- [x] Verify the updated proof section and checkpoint the revision.
+
+
 ## Exact company taxonomy update
 
 - [x] Replace the Brands data with the complete user-provided company list.
