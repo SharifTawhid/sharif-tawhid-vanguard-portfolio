@@ -1,5 +1,20 @@
 # Expansion checklist
 
+## Repository asset migration
+
+- [x] Stage all supplied PDFs, creative images, and proof screenshots under repository static assets.
+- [x] Replace Manus-only asset paths with repository-backed public paths.
+- [x] Add explicit download behavior for PDFs, creative images, and proof screenshots.
+- [x] Verify asset URLs, production build, and downloads before checkpointing.
+
+
+## Render deployment diagnosis
+
+- [ ] Inspect the newly attached deployment context.
+- [ ] Trace Render build, start command, port, and static-serving configuration.
+- [ ] Report the root cause and exact non-destructive Render settings to use.
+
+
 ## Caption removal pass
 
 ## Scoped Ad Creative caption update

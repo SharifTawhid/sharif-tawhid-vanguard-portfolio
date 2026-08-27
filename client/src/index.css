@@ -41,7 +41,7 @@ a { text-decoration: none; }
 .hero-statement em, h2 em { color: var(--warm); font-style: normal; }
 .text-link { display: flex; align-items: center; gap: 8px; padding-top: 2px; color: var(--warm); font-family: "IBM Plex Mono", monospace; font-size: 10px; text-transform: uppercase; letter-spacing: .1em; transition: color .2s, gap .2s; }
 .text-link:hover { color: var(--chartreuse); gap: 15px; }
-.hero-art { position: absolute; inset: 20% 0 0 60%; opacity: .9; background: url("/manus-storage/sharif-hero-noir_74fa8332.jpg") center / cover; mask-image: linear-gradient(90deg, transparent 0%, black 27%, black 100%); }
+.hero-art { position: absolute; inset: 20% 0 0 60%; opacity: .9; background: url("https://raw.githubusercontent.com/roman33-droid/sharif-tawhid-vanguard-portfolio-assets/main/visuals/sharif-hero-noir.jpg") center / cover; mask-image: linear-gradient(90deg, transparent 0%, black 27%, black 100%); }
 .hero-orbit { position: absolute; border: 1px solid rgba(183,255,53,.55); border-radius: 50%; transform: rotate(-20deg); }
 .orbit-one { width: 22vw; height: 48vw; right: 13vw; top: -8vw; }
 .orbit-two { width: 15vw; height: 37vw; right: 21vw; top: 0; border-color: rgba(241,240,233,.2); }
