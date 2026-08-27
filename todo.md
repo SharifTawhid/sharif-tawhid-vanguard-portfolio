@@ -1,5 +1,12 @@
 # Expansion checklist
 
+## Exact company taxonomy update
+
+- [x] Replace the Brands data with the complete user-provided company list.
+- [x] Preserve each industry and service category exactly as supplied.
+- [x] Verify the rendered Brands section and checkpoint the revision.
+
+
 ## Repository asset migration
 
 - [x] Stage all supplied PDFs, creative images, and proof screenshots under repository static assets.

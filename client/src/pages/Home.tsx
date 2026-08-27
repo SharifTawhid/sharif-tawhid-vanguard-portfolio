@@ -17,11 +17,21 @@ const projects = [
 const capabilities = ["Creative Strategy", "Growth Marketing", "Performance Marketing", "Media Buying", "Funnel Architecture", "Marketing Analytics", "Brand Systems", "Technology Thinking"];
 const filters = ["All", "Tech & SaaS", "Real Estate", "Lifestyle", "Health & Wellness", "Retail & Commerce"];
 const brands = [
-  ["01", "Coralogix", "Tech & SaaS"], ["02", "Schell Brothers", "Real Estate"], ["03", "Swanson", "Health & Wellness"],
-  ["04", "Snake River Sporting Club", "Lifestyle & Community"], ["05", "TVG", "Tech & SaaS"], ["06", "NibiSoft", "Tech & SaaS"],
-  ["07", "Neri Architects", "Real Estate & Architecture"], ["08", "Dr Z Plastic Surgery", "Health & Wellness"], ["09", "Clarity Homes", "Real Estate"],
-  ["10", "Taqwa Skyland", "Real Estate"], ["11", "One Ummah", "Lifestyle & Community"], ["12", "Apple Gadget", "Retail & Commerce"],
-  ["13", "Elegance", "Lifestyle & Community"], ["14", "Payrashopping", "Retail & Commerce"], ["15", "ThreadXBD", "Fashion & Commerce"],
+  ["01", "Coralogix", "Tech & SaaS", "Performance Marketing / Growth Strategy / Content Strategy"],
+  ["02", "TVG", "Tech & SaaS", "Performance Marketing / Growth Strategy / Content Strategy"],
+  ["03", "NibiSoft", "Tech & SaaS", "Performance Marketing / Growth Strategy / Content Strategy"],
+  ["04", "Schell Brothers", "Real Estate", "Performance Marketing / Growth Strategy / Content Strategy"],
+  ["05", "Clarity Homes", "Real Estate", "Performance Marketing / Growth Strategy / Content Strategy"],
+  ["06", "Neri Architects", "Real Estate", "Performance Marketing / Growth Strategy / Content Strategy"],
+  ["07", "Taqwa Skyland", "Real Estate", "Performance Marketing / Growth Strategy / Content Strategy"],
+  ["08", "Swanson", "Health & Wellness", "Performance Marketing / Growth Strategy / Content Strategy"],
+  ["09", "Dr Z Plastic Surgery", "Health & Wellness", "Performance Marketing / Growth Strategy / Content Strategy"],
+  ["10", "Snake River Sporting Club", "Lifestyle", "Performance Marketing / Growth Strategy / Content Strategy"],
+  ["11", "One Ummah", "Lifestyle", "Performance Marketing / Growth Strategy / Content Strategy"],
+  ["12", "Elegance", "Lifestyle", "Performance Marketing / Growth Strategy / Content Strategy"],
+  ["13", "Apple Gadget", "Retail & Commerce", "Performance Marketing / Growth Strategy / Content Strategy"],
+  ["14", "Payrashopping", "Retail & Commerce", "Paid Performance Marketing / Brand Strategy / Content Strategy"],
+  ["15", "Threadx", "Fashion & Commerce", "Brand Building / Growth Marketing / Performance Marketing / Content Strategy"],
 ];
 const reports = [
   ["ALA Developments", "Meta audit / 15 pages", "/manus-storage/ala-developments-meta-audit-professional_1904ff73.pdf"],
@@ -111,7 +121,7 @@ export default function Home() {
 
       <section className="client-strip" aria-label="Selected client universe"><span>Selected across</span><div>{["Coralogix", "Schell Brothers", "Swanson", "Snake River SC", "TVG", "Neri Architects", "Clarity Homes"].map((client) => <strong key={client}>{client}</strong>)}</div></section>
 
-      <section id="brands" className="brands-section section-pad"><div className="section-intro"><p className="section-index">02 / Brand universe</p><h2>Fifteen names.<br /><em>One operating system.</em></h2><p className="section-desc">The complete universe from the previous portfolio, spanning software, property, health, community, commerce, and culture.</p></div><div className="system-marker"><span className="brand-mark">S<span>/</span>T</span><span>15 brands / one operating system</span></div><div className="brand-grid">{brands.map(([number, name, category]) => <div className="brand-tile" key={name}><span>{number}</span><strong>{name}</strong><small>{category}</small></div>)}</div></section>
+      <section id="brands" className="brands-section section-pad"><div className="section-intro"><p className="section-index">02 / Brand universe</p><h2>Fifteen names.<br /><em>One operating system.</em></h2><p className="section-desc">The complete universe from the previous portfolio, spanning software, property, health, community, commerce, and culture.</p></div><div className="system-marker"><span className="brand-mark">S<span>/</span>T</span><span>15 brands / one operating system</span></div><div className="brand-grid">{brands.map(([number, name, category, services]) => <div className="brand-tile" key={name}><span>{number}</span><strong>{name}</strong><small>{category}</small><p className="brand-services">{services}</p></div>)}</div></section>
 
       <section id="work" className="work-section section-pad">
         <div className="section-intro"><p className="section-index">03 / Selected work</p><h2>Strategy that<br /><em>moves</em> the room.</h2><p className="section-desc">Cross-industry work where creative direction, paid performance, and commercial thinking operate as one system.</p></div>
