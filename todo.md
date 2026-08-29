@@ -1,5 +1,13 @@
 # Expansion checklist
 
+## Forage certificate section
+
+- [x] Inspect the Forage archive and identify the three certificate images.
+- [x] Stage the certificate images in the repository-backed asset store.
+- [x] Add the practical-work section immediately after Brand Universe.
+- [x] Verify the section and checkpoint the portfolio.
+
+
 ## New proof screenshots
 
 - [x] Stage both newly supplied screenshots in the proof asset repository.
