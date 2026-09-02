@@ -1,5 +1,13 @@
 # Expansion checklist
 
+## Practical Work & Certification update
+
+- [x] Stage the supplied upGrad certificate image in the repository-backed asset store.
+- [x] Rename the section label and replace visible Forage references with international-platform wording.
+- [x] Add the upGrad certificate to the existing certificate gallery.
+- [x] Verify the update and checkpoint the portfolio.
+
+
 ## Forage certificate section
 
 - [x] Inspect the Forage archive and identify the three certificate images.
